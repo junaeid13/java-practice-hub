@@ -12,7 +12,6 @@ public class ReverseString {
         for (int i = str_to_char.length - 1; i >= 0; i--) {
             reverse_string.append(str_to_char[i]);
         }
-
         return reverse_string.toString();
     }
 }
