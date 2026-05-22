@@ -14,6 +14,9 @@ public class FrequencyCounter {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
         }
 
+        for (int key : freq.keySet()) {
+            System.out.println(key+" : "+freq.get(key));
+        }
         System.out.println(freq);
     }
 }
