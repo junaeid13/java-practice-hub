@@ -12,7 +12,9 @@ public class AddIntegerQueue {
 
         System.out.println(queue);
 
-        System.out.println(queue.peek());
+        System.out.println("First elements from the queue : "+ queue.peek());
+
+        System.out.println("Size of the queue : "+queue.size());
 
         for (int i = 0; i < 5; i++) {
             queue.poll();
