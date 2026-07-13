@@ -12,6 +12,8 @@ public class AddIntegerQueue {
 
         System.out.println(queue);
 
+        System.out.println(queue.peek());
+
         for (int i = 0; i < 5; i++) {
             queue.poll();
             System.out.println(queue);
