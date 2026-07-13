@@ -7,12 +7,14 @@ public class AddIntegerQueue {
     public static void main(String[] args) {
         Queue<Integer> queue = new ArrayDeque<>();
 
-        queue.add(1);
-        queue.add(3);
-        queue.add(2);
-        queue.add(5);
-        queue.add(6);
+        for (int i = 0; i < 5; i++)
+            queue.offer(i);
 
         System.out.println(queue);
+
+        for (int i = 0; i < 5; i++) {
+            queue.poll();
+            System.out.println(queue);
+        }
     }
 }
