@@ -1,0 +1,18 @@
+package com.junaeid.queue;
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+public class PrintFrontElementWIthoutRemoving {
+
+    public static void main(String [] args){
+        Queue<Integer> queue = new ArrayDeque<>();
+
+        for(int i =0;i<5;i++){
+            queue.offer(i);
+        }
+
+        System.out.println(queue.peek());
+        System.out.println(queue);
+    }
+}
